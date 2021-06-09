@@ -1,0 +1,21 @@
+.App
+    margin 1rem
+    font-family Arial, Helvetica, sans-serif
+.z-index-wrap
+    position fixed
+    z-index 999999999
+    top 50%
+    transform translateX(-50%) translateY(-50%)
+    left 50%
+    background #fff
+    height 200px
+    width 200px
+    border 1px solid #ccc
+    transition all .1s
+    &.z-index-hide-wrap
+        right 0
+        left auto
+        transform translateX(180px) translateY(-50%)
+        height 30px
+._____select-wrap
+    transition all .1s
